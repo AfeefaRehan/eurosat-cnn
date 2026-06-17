@@ -1,0 +1,19 @@
+Model: EfficientNetB0 (fine-tuned)
+Test accuracy: 96.10%
+
+                      precision    recall  f1-score   support
+
+          AnnualCrop      0.940     0.965     0.952       451
+              Forest      0.976     0.991     0.983       450
+HerbaceousVegetation      0.953     0.944     0.949       450
+             Highway      0.934     0.949     0.942       375
+          Industrial      0.984     0.973     0.979       375
+             Pasture      0.956     0.940     0.948       300
+       PermanentCrop      0.917     0.912     0.915       376
+         Residential      0.974     0.998     0.986       450
+               River      0.975     0.941     0.958       376
+             SeaLake      0.998     0.979     0.988       419
+
+            accuracy                          0.961      4022
+           macro avg      0.961     0.959     0.960      4022
+        weighted avg      0.961     0.961     0.961      4022

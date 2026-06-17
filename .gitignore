@@ -1,0 +1,15 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Dataset — too large for GitHub (download from Kaggle: EuroSAT RGB)
+data/raw/
+data/processed/
+
+# Local test images (optional)
+my_test_images/
+
+# OS / editor
+.DS_Store
+.vscode/
